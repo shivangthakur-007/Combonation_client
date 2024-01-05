@@ -1,0 +1,20 @@
+.main_high{
+  display: inline-block;
+  position: relative;
+}
+
+.main_low{
+  display: none;
+  position: absolute;
+  gap: 6px;
+  top: 14px;
+  box-sizing: border-box;
+  left: 12px;
+}
+.main:hover .main_2{
+    transform: rotate(180deg);
+}
+.main_high:hover .main_low{
+      display: flex;
+}
+
